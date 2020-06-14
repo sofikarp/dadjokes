@@ -1,10 +1,10 @@
+import "./vue.js"
+import Vue from 'vue';
+import App from './App.vue';
+import './index.html';
+import './style.css';
 
 new Vue({
   el: '.container',
-  data:
-  {
-    upLikes: 0,
-    downLikes: 0,
-  },
-
+  render: h => h(App)
 })
